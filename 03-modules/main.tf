@@ -16,17 +16,17 @@ resource "random_id" "randomId" {
 
 module "network" {
   source  = "Azure/network/azurerm"
-  version = "~> 1.1.1"
+//  version = "~> 1.1.1"
 
-  location            = module.rg.resource_group.location
+//qaz  location            = module.rg.resource_group.location
   resource_group_name = module.rg.resource_group.name
 
-  allow_ssh_traffic = "true"
+//qaz  allow_ssh_traffic = "true"
 }
 
 module "compute" {
   source  = "Azure/compute/azurerm"
-  version = "1.3.0"
+//  version = "1.3.0"
 
   location            = module.rg.resource_group.location
   resource_group_name = module.rg.resource_group.name
