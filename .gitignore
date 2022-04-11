@@ -14,3 +14,5 @@
 
 #be sure to not add scripts created for labs
 **/lab/*
+
+.terraform*

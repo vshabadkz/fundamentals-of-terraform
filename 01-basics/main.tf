@@ -19,6 +19,6 @@ Create a new resource group and talk about it
 in a multi-line comment
 */
 resource "azurerm_resource_group" "rg" {
-  name     = "tf-basics-rg"
+  name     = "tf-basics-rg-test-qaz"
   location = "westus2"
 }
